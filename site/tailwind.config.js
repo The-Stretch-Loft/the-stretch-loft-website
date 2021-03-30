@@ -7,19 +7,23 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {
-    },
     colors: {
       gray: colors.coolGray,
       blue: colors.blue[500],
       black: colors.black,
       white: colors.white
     },
+    fontSize: {
+      xs: '10px',
+      sm: '12px'
+    },
     textColor: {
       'primary': colors.blue[500],
       'black': colors.black,
       'white': colors.white,
-    }
+    },
+    extend: {
+    },
   },
   variants: {
     extend: {
